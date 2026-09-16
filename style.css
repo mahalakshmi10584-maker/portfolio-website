@@ -16,7 +16,7 @@
       overflow-x: hidden;
     }
 
-    /* Spider Web Background */
+    
     body::before {
       content: "";
       position: fixed;
@@ -38,7 +38,7 @@
       mask-image: linear-gradient(to bottom, black, transparent);
     }
 
-    /* NAVBAR */
+    
     nav {
       position: fixed;
       top: 0;
@@ -81,7 +81,7 @@
       text-shadow: 0 0 15px red;
     }
 
-    /* SECTIONS */
+    
 
     section {
       min-height: 100vh;
@@ -94,7 +94,7 @@
       margin: auto;
     }
 
-    /* HERO */
+    
 
     .hero {
       display: grid;
@@ -153,7 +153,7 @@
       font-size: 1.05rem;
     }
 
-    /* WEB */
+    
 
     .web {
       position: absolute;
@@ -189,7 +189,7 @@
       animation: rotateWeb 30s linear infinite;
     }
 
-    /* BUTTONS */
+    
 
     .buttons {
       display: flex;
@@ -235,7 +235,7 @@
       border-color: #405078;
     }
 
-    /* SECTION TITLE */
+    
 
     .section-title {
       font-size: clamp(2.2rem, 5vw, 4rem);
@@ -248,7 +248,7 @@
       line-height: 1.7;
     }
 
-    /* PROFILE */
+    
 
     .profile {
       display: grid;
@@ -257,7 +257,7 @@
       align-items: center;
     }
 
-    /* PROFILE AVATAR */
+    
 
     .avatar {
       width: min(340px, 75vw);
@@ -295,7 +295,7 @@
       filter: drop-shadow(0 0 15px red);
     }
 
-    /* CARDS */
+    
 
     .grid {
       display: grid;
@@ -345,7 +345,7 @@
       line-height: 1.7;
     }
 
-    /* BADGES */
+    
 
     .badge {
       display: inline-block;
@@ -370,7 +370,7 @@
       color: white;
     }
 
-    /* PROJECTS */
+    
 
     .project-number {
       color: #ff3b4d;
@@ -378,7 +378,7 @@
       font-size: 0.9rem;
     }
 
-    /* CONTACT */
+    
 
     .contact {
       text-align: center;
@@ -403,7 +403,7 @@
       text-shadow: 0 0 15px red;
     }
 
-    /* FOOTER */
+    
 
     footer {
       text-align: center;
@@ -415,7 +415,7 @@
       border-top: 1px solid #101a32;
     }
 
-    /* CURSOR */
+    
 
     #cursor {
       position: fixed;
@@ -438,7 +438,7 @@
       transition: 0.08s;
     }
 
-    /* ANIMATIONS */
+    
 
     @keyframes floating {
 
@@ -477,7 +477,7 @@
       }
     }
 
-    /* MOBILE */
+    
 
     @media (max-width: 750px) {
 
